@@ -1,0 +1,22 @@
+# Node modules va cache
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Git va tizim fayllari
+.git
+.gitignore
+Dockerfile
+docker-compose.yml
+
+# Env fayllar (Cloud Run’da alohida o‘rnatiladi)
+.env
+.env.local
+
+# Build chiqindilari
+dist
+coverage
+
+# IDE fayllar
+.vscode
+.idea

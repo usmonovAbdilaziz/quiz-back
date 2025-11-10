@@ -19,7 +19,7 @@ import { ExamsModule } from './exams/exams.module';
     }),
     SequelizeModule.forRoot({
       dialect: 'postgres',
-      host: process.env.DB_HOST as string,
+      host: process.env.DB_HOST as string||'db',
       port: Number(process.env.DB_PORT),
       username: process.env.DB_USER as string,
       password: process.env.DB_PASSWORD as string,
